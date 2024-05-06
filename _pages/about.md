@@ -1,12 +1,5 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-I'm a Ph.D. student at [SRIAS](https://srias.tongji.edu.cn/main.htm)), [Tongji University](https://www.tongji.edu.cn/). My research interests include computer vision and robotics.
+
+I'm a Ph.D. student at [SRIAS](https://srias.tongji.edu.cn/main.htm), [Tongji University](https://www.tongji.edu.cn/). My research interests include computer vision and robotics.
 I am very fortunate to be advised by [Zhipeng Wang](https://robot.tongji.edu.cn/info/1256/2086.htm) of the [Intelligent Robotics and Computational Perception Lab](https://robot.tongji.edu.cn/) at [Tongji University](https://www.tongji.edu.cn/).
 
 Before my PhD, I obtained my master degree from Zhejiang University, advised by [Songyu Hu](https://person.zju.edu.cn/0019189) and [Jianzhong Fu](https://person.zju.edu.cn/0096151). I received my bachelor degree from [College of Mechanical and Electronic Engineering](https://cmee.upc.edu.cn/main.htm), [China University of Petroleum](https://upc.edu.cn).
