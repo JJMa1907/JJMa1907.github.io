@@ -29,6 +29,14 @@ Publications
   Measurement Science and Technology (MST), 2022
   
   [paper](https://iopscience.iop.org/article/10.1088/1361-6501/ac9c22)
+  
+-  Geometric-aware RGB-D representation learning for hand-object reconstruction 
+
+   **Jiajun Ma**, Yanmin Zhou, Zhipeng Wang, Hongrui Sang, Rong Jiang, Bin He
+   
+   Under review
+   
+   [project](https://jjma1907.github.io/project/GeoBAF_HORec.html)
 
 Academic Service
 =====
