@@ -36,7 +36,7 @@ Publications
    
    Under review
    
-   [project](https://jjma1907.github.io/project/GeoBAF_HORec.html)
+   [project](https://jjma1907.github.io/projects/GeoBAF_HORec.html)
 
 Academic Service
 =====
