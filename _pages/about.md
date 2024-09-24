@@ -14,6 +14,13 @@ Before my PhD, I obtained my master degree from Zhejiang University, advised by 
 
 Publications
 ======
+-  Geometric-aware RGB-D representation learning for hand-object reconstruction 
+
+   **Jiajun Ma**, Yanmin Zhou, Zhipeng Wang, Hongrui Sang, Rong Jiang, Bin He
+   
+   Expert Systems with Applications (ESWA), 2024
+   
+   [paper](https://www.sciencedirect.com/science/article/pii/S0957417424018621) [project](https://jjma1907.github.io/projects/GeoBAF_HORec.html)
 - A hierarchical attention detector for bearing surface defect detection
   
   **Jiajun Ma**, Songyu Hu, Jianzhong Fu, Gui Chen
@@ -30,18 +37,10 @@ Publications
   
   [paper](https://iopscience.iop.org/article/10.1088/1361-6501/ac9c22)
   
--  Geometric-aware RGB-D representation learning for hand-object reconstruction 
-
-   **Jiajun Ma**, Yanmin Zhou, Zhipeng Wang, Hongrui Sang, Rong Jiang, Bin He
-   
-   Under review
-   
-   [project](https://jjma1907.github.io/projects/GeoBAF_HORec.html)
-
 Academic Service
 =====
 - Journal Reviewer:
-  
+   IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
   Measurement Science and Technology (MST)
   
   
