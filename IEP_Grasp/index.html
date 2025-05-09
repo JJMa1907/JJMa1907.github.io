@@ -1,0 +1,508 @@
+<!-- filepath: d:\JJMa1907.github.io\projects\IEP_Grasp.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="../projects/resources/IEP-Grasp_assets/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="../projects/resources/IEP-Grasp_assets/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <title>IEP-Grasp: Learning Generalizable Dexterous Grasping through Interactive Embodied Priors</title>
+  <link rel="icon" type="image/x-icon" href="../projects/resources/IEP-Grasp_assets/images/log.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+
+  <link rel="stylesheet" href="../projects/resources/IEP-Grasp_assets/css/bulma.min.css">
+  <link rel="stylesheet" href="../projects/resources/IEP-Grasp_assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../projects/resources/IEP-Grasp_assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../projects/resources/IEP-Grasp_assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../projects/resources/IEP-Grasp_assets/css/index.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="../projects/resources/IEP-Grasp_assets/js/fontawesome.all.min.js"></script>
+  <script src="../projects/resources/IEP-Grasp_assets/js/bulma-carousel.min.js"></script>
+  <script src="../projects/resources/IEP-Grasp_assets/js/bulma-slider.min.js"></script>
+  <script src="../projects/resources/IEP-Grasp_assets/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">IEP-Grasp: Learning Generalizable Dexterous Grasping through Interactive Embodied Priors</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="../projects/resources/IEP-Grasp_assets/videos/237-IEP-Grasp.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle" style="text-align: justify;">
+        Given an unknown object's point cloud, our method first applies a human-inspired Hand-Object Guidance module to decompose the shape and evaluate grasp, then employs an Embodied Affordance Module with online interactive updates to refine grasp affordances, and finally executes the Dexterous Grasping Module to generate stable multi-finger grasp poses in real world. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Robotic dexterous grasping is a fundamental operation in industrial automation and human-robot collaboration, yet the high-dimensional action space and diverse object shapes pose significant challenges for autonomous learning with multi-finger hands. 
+To tackle these issues, we propose IEP-Grasp, an autonomous grasping algorithm that integrates interactive embodied priors based on hand-object contact constraints into deep reinforcement learning with point cloud inputs, enabling the learning of both the final grasp pose and the dynamic grasping process. By focusing the agent's attention on critical grasping points, these priors enhance grasp stability and provide interpretable insights of hand-object interactions.
+First, an unsupervised heuristic algorithm decomposes object point clouds into basic cuboid shapes, allowing a human-inspired hand-object prior guidance module to evaluate contact states and improve adaptability.
+Our approach then refines a grasp affordance map through interactive exploration of contact patterns, enabling the agent to locate optimal hand-object configurations. 
+Finally, these interactive embodied priors are embedded into both observation and reward signals, synchronizing the learning of priors and the manipulation policy.
+Extensive experiments in simulated and real-world environments with a 16-degree-of-freedom, four-fingered Allegro hand demonstrate significant improvements over baselines in grasp success rate and stability across diverse objects and categories. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Method Overview -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper PDF preview -->
+      <h2 class="title is-3">Method Overview</h2>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="pdf-content" style="text-align: center;">
+            <img src="../projects/resources/IEP-Grasp_assets/images/overview.jpg" alt="MY ALT TEXT"/>
+            <!-- <iframe src="../projects/resources/IEP-Grasp_assets/images/overview.svg" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; height: 800;"></iframe> -->
+            <div class="content has-text-justified">
+            <p>
+              This approach first obtains the point cloud of the scene using RGB-D camera. Subsequently, guided by human grasp priors, HOPG evaluates contact relationships between the object's point cloud and the dexterous hand. EAM then leverages knowledge from embodied interaction training to generate affordance priors for the object's point cloud. Finally, DGM integrates these priors with the scene point cloud to produce dexterous grasping actions. Dashed lines indicate training-only processes. Notably, our policies trained in simulation using point cloud inputs transfer seamlessly to real-world settings without fine-tuning, demonstrating strong generalization even to unseen objects during training.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Method Overview -->
+
+
+<section class="hero teaser">
+  <div class="hero-body" style="background-color: #E2EFDA; padding: 20px 0;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3" style="color: #000000; text-align: center; margin: 0;">Real World Experiments</h2>
+    </div>
+  </div>
+</section>
+
+<!--real world setting-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper PDF preview -->
+      <h2 class="title is-3">Real World Setting</h2>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="pdf-content" style="text-align: center;">
+            <img src="../projects/resources/IEP-Grasp_assets/images/real world setting.jpg" alt="MY ALT TEXT"/>
+            <!-- <iframe src="../projects/resources/IEP-Grasp_assets/images/overview.svg" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; height: 800;"></iframe> -->
+            <div class="content has-text-justified">
+            <p>
+    
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End real world setting -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper PDF preview -->
+      <h2 class="title is-3">Real World Results</h2>
+    </div>
+  </div>
+</section>
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+    
+	  <div style="height: 20px;"></div> <!-- 间隔 -->
+	  <h3 class="subtitle is-4">1.  The Performance of Our Method on Various Bottles</h3> <!-- 新添加的子标题 -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Mustard bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/mustard_bottle1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Cleanser bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/cleaner1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Wine bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/yuanjiuping1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Laundry bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/xiyiyeping2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Beverage bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/yykx3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Spray bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/yiyongxiaoduyeping7.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <h3 class="subtitle is-4">2. The Performance of Our Method on Various Cans and Fruit</h3> <!-- 新添加的子标题 -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Chips can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/shupianhe10.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Beer can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/xuehua7.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Coke can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/baishikelecan8.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Soup can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/tomatocan2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Meat can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/potted_meat_can1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Banana</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/banana1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <h3 class="subtitle is-4">3. The Performance of Our Method on Miscellaneous objects</h3> <!-- 新添加的子标题 -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Goblet</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/jiubei1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Sugar box</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/sugerbox6.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Cracker box</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/cheezit4.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+	  <h3 class="subtitle is-4">4.  The Performance of Real World baseline</h3> <!-- 新添加的子标题 -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Mustard bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat2-bottle-try3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Cleanser bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat1-cleaner-try2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered" style="color: red;">Wine bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%; border: 2px solid red;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat2-yuanjiuping-try3-failed.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Laundry bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat1-xiyiyeping-try2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Beverage bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat1-yykx-try2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered" style="color: red;">Spray bottle</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%; border: 2px solid red;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat10-xiaoduyeping-try10-failed.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Chips can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-can-cat1-shupianhe-try1-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Beer can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-can-cat2-xuehua-try2-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Coke can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-can-cat3-baishikele-try3-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Soup can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-can-cat10-tomatocan-try10-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Meat can</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-can-cat5-meatcan-try5-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Banana</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat3-banana-try12-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Goblet</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-bottle-cat2-jiubei-try4-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Sugar box</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-sugerbox-try1-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- 第三列视频 -->
+        <div style="flex: 0 0 32%; margin-bottom: 20px;">
+          <h3 class="has-text-centered">Cracker box</h3>
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="../projects/resources/IEP-Grasp_assets/videos/graspit-sugerbox-cheezit-try2-suc.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+</body>
+</html>
