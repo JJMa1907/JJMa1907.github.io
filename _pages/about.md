@@ -16,14 +16,14 @@ Selected Publications
 ======
 -  Geometric-aware RGB-D representation learning for hand-object reconstruction 
 
-   **Jiajun Ma**, Yanmin Zhou, Zhipeng Wang, Hongrui Sang, Rong Jiang, Bin He
+   **Jiajun Ma**, Yanmin Zhou, Zhipeng Wang*, Hongrui Sang, Rong Jiang, Bin He
    
    Expert Systems with Applications (ESWA), 2024
    
    [paper](https://www.sciencedirect.com/science/article/pii/S0957417424018621) [project](https://jjma1907.github.io/projects/GeoBAF_HORec.html)
 - A hierarchical attention detector for bearing surface defect detection
   
-  **Jiajun Ma**, Songyu Hu, Jianzhong Fu, Gui Chen
+  **Jiajun Ma**, Songyu Hu*, Jianzhong Fu, Gui Chen
   
   Expert Systems with Applications (ESWA), 2023
   
@@ -31,7 +31,7 @@ Selected Publications
   
 - A novel CNN ensemble framework for bearing surface defects classification based on transfer learning
   
-  **Jiajun Ma**, Maolin Liu, Songyu Hu, Jianzhong Fu, Gui Chen, Aixi Yang
+  **Jiajun Ma**, Maolin Liu, Songyu Hu*, Jianzhong Fu, Gui Chen, Aixi Yang
   
   Measurement Science and Technology (MST), 2022
   
@@ -40,7 +40,6 @@ Selected Publications
 Academic Service
 =====
 - Journal Reviewer:
-- 
   IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
    
   Measurement Science and Technology (MST)

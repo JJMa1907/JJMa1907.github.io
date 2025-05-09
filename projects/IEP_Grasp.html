@@ -131,7 +131,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle" style="text-align: justify;">
-        Given an unknown object's point cloud, our method first applies a human-inspired Hand-Object Guidance module to decompose the shape and evaluate grasp, then employs an Embodied Affordance Module with online interactive updates to refine grasp affordances, and finally executes the Dexterous Grasping Module to generate stable multi-finger grasp poses in real world.
+        Given an unknown object's point cloud, our method first applies a human-inspired Hand-Object Guidance module to decompose the shape and evaluate grasp, then employs an Embodied Affordance Module with online interactive updates to refine grasp affordances, and finally executes the Dexterous Grasping Module to generate stable multi-finger grasp poses in real world. 
       </h2>
     </div>
   </div>
@@ -173,7 +173,7 @@ Extensive experiments in simulated and real-world environments with a 16-degree-
             <!-- <iframe src="./resources/IEP-Grasp_assets/images/overview.svg" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; height: 800;"></iframe> -->
             <div class="content has-text-justified">
             <p>
-              This approach first obtains the point cloud of the scene using RGB-D camera. Subsequently, guided by human grasp priors, HOPG evaluates contact relationships between the object's point cloud and the dexterous hand. EAM then leverages knowledge from embodied interaction training to generate affordance priors for the object's point cloud. Finally, DGM integrates these priors with the scene point cloud to produce dexterous grasping actions. 
+              This approach first obtains the point cloud of the scene using RGB-D camera. Subsequently, guided by human grasp priors, HOPG evaluates contact relationships between the object's point cloud and the dexterous hand. EAM then leverages knowledge from embodied interaction training to generate affordance priors for the object's point cloud. Finally, DGM integrates these priors with the scene point cloud to produce dexterous grasping actions. Dashed lines indicate training-only processes. Notably, our policies trained in simulation using point cloud inputs transfer seamlessly to real-world settings without fine-tuning, demonstrating strong generalization even to unseen objects during training.
             </p>
             </div>
           </div>
